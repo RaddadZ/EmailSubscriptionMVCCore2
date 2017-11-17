@@ -1,0 +1,19 @@
+﻿@model SignUpViewModel
+
+@{
+    ViewBag.Title = "Welcome !";
+}
+
+<div class="box">
+    <div class="row">
+        <h2 class="title text-primary-color center-block">Welcome On Board <br />@Model.Name @Model.Surname!</h2>
+    </div>
+    <div class="row text-center">
+        <h3>Registration is done successfully.</h3>
+        <p>Make sure to check your email!</p>
+        @if (!string.IsNullOrWhiteSpace(Model.FreindEmail))
+        {
+            <p>And remind @Model.FreindEmail! to do so!</p>
+        }
+    </div>
+</div>

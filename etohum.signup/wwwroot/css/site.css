@@ -1,0 +1,59 @@
+﻿body {
+    background: url(../images/halftone-yellow.png);
+}
+
+.form-control {
+    border-radius: 0;
+    border: 0;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+
+.centered {
+    text-align: center;
+    margin: 25px 0 0 0;
+}
+
+.text-primary-color {
+    color: #5CB85C;
+}
+
+.text-secondry-color {
+    color: #888;
+}
+
+.text-note-color {
+    color: #9D9DAA;
+}
+
+.box {
+    background-color: white;
+    border-radius: 5px;
+    width: 400px;
+    margin: 50px auto;
+    padding: 25px;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.3);
+}
+
+    .box h2 {
+        font-weight: bolder;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .box label {
+        font-weight: 300;
+        font-size: 1.2em;
+    }
+
+    .box .btn {
+        margin-top: 20px;
+        border: 0;
+        border-radius: 9999px;
+        box-shadow: 0 3px 3px rgba(0,0,0,0.1);
+    }
+
+@media screen and (max-width: 400px) {
+    .box {
+        width: 80%;
+    }
+}
