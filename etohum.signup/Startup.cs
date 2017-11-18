@@ -55,7 +55,7 @@ namespace etohum.signup
             // Hangfire server runs under ISS
             app.UseHangfireServer();
             // Hangfire has optinal UI to keep track of background jobs and watch queues
-            // should be could before UseMvc
+            // should be could before UseMvc, you can check it at localhost/hangfire
             app.UseHangfireDashboard();
 
             // using wwwroot contents
